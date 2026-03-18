@@ -1,0 +1,7 @@
+# Research Gap
+
+Music copyright disputes often turn on questions of similarity, yet similarity alone is not a legal test. In practice, legal reasoning also depends on contextual and doctrinal considerations such as access, the nature of the protected material, and whether the dispute actually concerns melodic similarity rather than lyrics, production, timbre, or overall style. This creates a gap between computational similarity scoring and legally meaningful analysis.
+
+Existing computational approaches can help quantify melodic resemblance, but they do not by themselves provide a legally interpretable framework. A high similarity score does not automatically imply infringement, and a low score does not necessarily resolve a dispute when the legal framing is more complex. What is missing is not simply a better similarity score, but a narrow and explainable way to connect computational output to legally relevant reasoning.
+
+Our contribution is therefore not a claim that legal judgment can be automated. Instead, we propose a small techno-legal prototype that combines melody similarity, threshold calibration, and a minimal rule-based legal layer in order to produce a transparent scorecard and rule trace. The purpose is to test whether this combined structure can better reproduce and explain outcomes in melody-focused disputes than similarity scoring alone.
